@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<ImageView
+	    android:id="@+id/AdapterImage"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="5px">    <!--  位置要調整好 放在左邊-->
+	</ImageView>
+	
+	<TextView
+	    android:id="@+id/AdapterText"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="45px"
+	    android:layout_toRightOf="@+id/AdapterImage"> <!-- 設定在ImageView的右邊 -->
+	</TextView>
+    <TextView
+        android:id="@+id/AdapterText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AdapterText"
+        android:layout_toRightOf="@+id/AdapterText"
+        android:layout_toEndOf="@+id/AdapterText"> <!-- 設定在ImageView的右邊 -->
+    </TextView>
+</RelativeLayout>

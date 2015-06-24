@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <drawable name="pressed">@android:color/holo_blue_light</drawable>
+    <drawable name="focused">@android:color/holo_blue_dark</drawable>
+    <drawable name="normal">@android:color/holo_blue_dark</drawable>
+</resources>

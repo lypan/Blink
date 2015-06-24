@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#B0E0E6"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="New Text"
+        android:id="@+id/blinkPhotoTitle"
+        android:layout_weight="2"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="81dp"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/blinkPhoto"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="10" />
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#B0E0E6"
+    >
+    <GridView
+        android:layout_marginTop="82dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mygridview"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vs"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:adjustViewBounds="true" />
+    <Button
+        android:id="@+id/bye"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Log Out"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
